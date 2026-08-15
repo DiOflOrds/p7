@@ -1,9 +1,15 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-15 · Tickets: 9
+Stand: 2026-08-15 · Tickets: 13
 
 
-## done (9)
+## in_review (1)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
+| [T-0013](tickets/T-0013.md) | DR: G4 Sprint 2 + P7-Abnahme (Baseline p7-v1.0) | decision-request | pl | hoch | 2 | — |
+
+## done (12)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -16,3 +22,6 @@ Stand: 2026-08-15 · Tickets: 9
 | [T-0007](tickets/T-0007.md) | FRT: Tab „Team" + Cockpit-Kachel + Konfigurator-Formular (SWR-054/055/057) | task | dev | hoch | 1 | — |
 | [T-0008](tickets/T-0008.md) | SWE.4: test_teams.py — 6 hermetische Tests, Suite 162 grün, Matrix 58/0 | task | test | hoch | 1 | — |
 | [T-0009](tickets/T-0009.md) | DR: G4 Sprint 1 — Team-Tab + Konfigurator abnehmen (Baseline p7-v0.1) | decision-request | pl | hoch | 1 | — |
+| [T-0010](tickets/T-0010.md) | MAN.3/SWE.1: Sprint-2-Planning + SWR-059 (Digest-Lesbarkeit, G4-Befund) reviewed | task | rm | hoch | 2 | — |
+| [T-0011](tickets/T-0011.md) | E3: digest_zustellung.py (SWR-058) — idempotenter Mailversand + abschluss-Integration | task | dev | hoch | 2 | — |
+| [T-0012](tickets/T-0012.md) | SWR-059: Markdown-Renderer für Digest + Charter (DOM, ES5, keine Bibliothek) | task | dev | hoch | 2 | — |

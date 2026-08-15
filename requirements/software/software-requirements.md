@@ -1,6 +1,6 @@
 # Software Requirements — P7 "Teams im HMI" (extension of platform baseline)
 
-*Extends SWR-001–052; numbering continues. Components: BCK/FRT (backend/frontend), OPS (Betrieb). Language: English (D011). Status `reviewed` = feasibility + verifiability per DoD checklist. Verification is UI/device acceptance checklist plus tests; test coverage lands with the implementation sprints. v1.0 Sprint 0, T-0002 — G1 pending (Inbox-DR T-0003).*
+*Extends SWR-001–052; numbering continues. Components: BCK/FRT (backend/frontend), OPS (Betrieb). Language: English (D011). Status `reviewed` = feasibility + verifiability per DoD checklist. Verification is UI/device acceptance checklist plus tests; test coverage lands with the implementation sprints. v1.0 Sprint 0, T-0002 (G1a/D001); v1.1 Sprint 2, T-0012 — +SWR-059 from the G4-sprint-1 finding (digest shown as raw text, p7/D002).*
 
 ## Team view (P7-E1)
 
@@ -9,6 +9,7 @@
 | SWR-053 | The backend shall serve team data per team repo (detected via `team.yaml`): charter text, team key data, configuration values, SLA list, and the digest history (list plus single digest content) via read API; remote (non-localhost) read access to team content shall require the configured PIN while localhost stays PIN-free (extension of the ADR-006 write rule to sensitive team reads). | STK-017 | API tests (team data served; remote read without/with PIN) + acceptance checklist | high | reviewed |
 | SWR-054 | The frontend shall provide a "Team" tab for team projects showing digest history with readable digest detail, and charter/configuration/SLA as read-only sections, usable on desktop and Android/Chrome phone. | STK-017 | UI/device acceptance checklist (browser + phone) | high | reviewed |
 | SWR-055 | The cockpit shall show a team tile for team repos including the date of the latest digest (or a hint that none exists yet). | STK-017 | API test (cockpit contains team info) + UI checklist | medium | reviewed |
+| SWR-059 | The frontend shall render digest and charter markdown as structured, readable HTML — headings, paragraphs, bold and inline code, ordered/unordered lists, tables, horizontal rules — via DOM construction without external libraries (ADR-002), so the relevant information is scannable at a glance on desktop and phone (finding from G4 sprint 1: raw-text view). | STK-017 | UI acceptance checklist (formatted digest on desktop + phone) | high | reviewed |
 
 ## Team configuration via HMI (P7-E2)
 
@@ -25,4 +26,4 @@
 
 ## Traceability
 
-STK-017 ← SWR-053–058 (complete; no orphans). DoD checklist applied per SWR (2026-08-15 RM). Security: PIN read gate for team content (SWR-053) documented as ADR-006 delta in Sprint 1; Guardrail 2 (no GitHub remote for sensitive repos) untouched — Mission Control reads locally. G1 pending (T-0003).
+STK-017 ← SWR-053–059 (complete; no orphans). DoD checklist applied per SWR (2026-08-15 RM). Security: PIN read gate for team content (SWR-053) documented as ADR-006 delta in Sprint 1; Guardrail 2 (no GitHub remote for sensitive repos) untouched — Mission Control reads locally. G1 pending (T-0003).
