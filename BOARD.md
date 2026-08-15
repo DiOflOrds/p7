@@ -3,13 +3,7 @@
 Stand: 2026-08-15 · Tickets: 13
 
 
-## in_review (1)
-
-| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|
-| [T-0013](tickets/T-0013.md) | DR: G4 Sprint 2 + P7-Abnahme (Baseline p7-v1.0) | decision-request | pl | hoch | 2 | — |
-
-## done (12)
+## done (13)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -25,3 +19,4 @@ Stand: 2026-08-15 · Tickets: 13
 | [T-0010](tickets/T-0010.md) | MAN.3/SWE.1: Sprint-2-Planning + SWR-059 (Digest-Lesbarkeit, G4-Befund) reviewed | task | rm | hoch | 2 | — |
 | [T-0011](tickets/T-0011.md) | E3: digest_zustellung.py (SWR-058) — idempotenter Mailversand + abschluss-Integration | task | dev | hoch | 2 | — |
 | [T-0012](tickets/T-0012.md) | SWR-059: Markdown-Renderer für Digest + Charter (DOM, ES5, keine Bibliothek) | task | dev | hoch | 2 | — |
+| [T-0013](tickets/T-0013.md) | DR: G4 Sprint 2 + P7-Abnahme (Baseline p7-v1.0) | decision-request | pl | hoch | 2 | — |
