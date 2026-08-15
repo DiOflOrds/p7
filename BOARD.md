@@ -3,13 +3,7 @@
 Stand: 2026-08-15 · Tickets: 9
 
 
-## in_review (1)
-
-| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|
-| [T-0009](tickets/T-0009.md) | DR: G4 Sprint 1 — Team-Tab + Konfigurator abnehmen (Baseline p7-v0.1) | decision-request | pl | hoch | 1 | — |
-
-## done (8)
+## done (9)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -21,3 +15,4 @@ Stand: 2026-08-15 · Tickets: 9
 | [T-0006](tickets/T-0006.md) | BCK: Konfigurations-Schreibpfad mit Sofort-Commit (SWR-056) | task | dev | hoch | 1 | — |
 | [T-0007](tickets/T-0007.md) | FRT: Tab „Team" + Cockpit-Kachel + Konfigurator-Formular (SWR-054/055/057) | task | dev | hoch | 1 | — |
 | [T-0008](tickets/T-0008.md) | SWE.4: test_teams.py — 6 hermetische Tests, Suite 162 grün, Matrix 58/0 | task | test | hoch | 1 | — |
+| [T-0009](tickets/T-0009.md) | DR: G4 Sprint 1 — Team-Tab + Konfigurator abnehmen (Baseline p7-v0.1) | decision-request | pl | hoch | 1 | — |
