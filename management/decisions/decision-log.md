@@ -1,0 +1,5 @@
+# Decision Log — Projekt P7 „Teams im HMI" (append-only)
+
+| ID | Datum | Entscheider | Entscheidung | Optionen | Begründung | Betroffene Artefakte |
+|---|---|---|---|---|---|---|
+| D000 | 2026-08-15 | Mensch (E. John, via Inbox, pm/T-0005) | **G0-Äquivalent: P7b — voller Umfang beauftragt** (Team-Tab + Konfigurator + Mail-Zustellung); kein separater G0-DR (Doppelverwaltung vermieden) | P7a/P7b/P7c | Auftrag und Optionen wurden am pm-DR entschieden (pm/D001) | pm/T-0005, docs/01-projektauftrag.md |
