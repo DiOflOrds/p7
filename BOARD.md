@@ -1,9 +1,9 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-15 · Tickets: 14
+Stand: 2026-08-15 · Tickets: 15
 
 
-## done (14)
+## done (15)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -21,3 +21,4 @@ Stand: 2026-08-15 · Tickets: 14
 | [T-0012](tickets/T-0012.md) | SWR-059: Markdown-Renderer für Digest + Charter (DOM, ES5, keine Bibliothek) | task | dev | hoch | 2 | — |
 | [T-0013](tickets/T-0013.md) | DR: G4 Sprint 2 + P7-Abnahme (Baseline p7-v1.0) | decision-request | pl | hoch | 2 | — |
 | [T-0014](tickets/T-0014.md) | CR (Betrieb): Mail-Direktlinks im Digest (SWR-060, aus team-mail/N-0001) | change-request | chg | mittel | 2 | — |
+| [T-0015](tickets/T-0015.md) | CR (Betrieb): Server-Neustart per Knopfdruck (SWR-061, aus pm/N-0002 Wunsch 1) | change-request | chg | mittel | 2 | — |
