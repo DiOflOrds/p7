@@ -8,4 +8,4 @@
 
 ## Traceability
 
-STK-017 ← SWR-053–059 (see software requirements; complete, no orphans).
+STK-017 ← SWR-053–060 (see software requirements; complete, no orphans).

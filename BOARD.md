@@ -1,9 +1,9 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-15 · Tickets: 13
+Stand: 2026-08-15 · Tickets: 14
 
 
-## done (13)
+## done (14)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -20,3 +20,4 @@ Stand: 2026-08-15 · Tickets: 13
 | [T-0011](tickets/T-0011.md) | E3: digest_zustellung.py (SWR-058) — idempotenter Mailversand + abschluss-Integration | task | dev | hoch | 2 | — |
 | [T-0012](tickets/T-0012.md) | SWR-059: Markdown-Renderer für Digest + Charter (DOM, ES5, keine Bibliothek) | task | dev | hoch | 2 | — |
 | [T-0013](tickets/T-0013.md) | DR: G4 Sprint 2 + P7-Abnahme (Baseline p7-v1.0) | decision-request | pl | hoch | 2 | — |
+| [T-0014](tickets/T-0014.md) | CR (Betrieb): Mail-Direktlinks im Digest (SWR-060, aus team-mail/N-0001) | change-request | chg | mittel | 2 | — |
