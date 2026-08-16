@@ -1,9 +1,9 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-15 · Tickets: 15
+Stand: 2026-08-16 · Tickets: 16
 
 
-## done (15)
+## done (16)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -22,3 +22,4 @@ Stand: 2026-08-15 · Tickets: 15
 | [T-0013](tickets/T-0013.md) | DR: G4 Sprint 2 + P7-Abnahme (Baseline p7-v1.0) | decision-request | pl | hoch | 2 | — |
 | [T-0014](tickets/T-0014.md) | CR (Betrieb): Mail-Direktlinks im Digest (SWR-060, aus team-mail/N-0001) | change-request | chg | mittel | 2 | — |
 | [T-0015](tickets/T-0015.md) | CR (Betrieb): Server-Neustart per Knopfdruck (SWR-061, aus pm/N-0002 Wunsch 1) | change-request | chg | mittel | 2 | — |
+| [T-0016](tickets/T-0016.md) | CR (pm/N-0010, SWR-073): Server startet sich bei neuem Code selbst neu | change-request | dev | mittel | 0 | — |
