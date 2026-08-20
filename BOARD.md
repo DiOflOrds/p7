@@ -1,6 +1,6 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-17 · Tickets: 16
+Stand: 2026-08-20 · Tickets: 16
 
 
 ## done (16)
